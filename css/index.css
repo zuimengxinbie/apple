@@ -1,0 +1,752 @@
+/*
+* @Author: 陈琦
+* @Date:   2018-02-06 11:14:01
+* @Last Modified by:   陈琦
+* @Last Modified time: 2018-02-24 08:53:09
+*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    /* display: block; */
+}
+
+.header-box {
+    width: 100%;
+    height: 40px;
+    background: #444444;
+}
+
+.header-box .top {
+    width: 976px;
+    height: 40px;
+    margin: 0 auto;
+    /* background: yellow; */
+    line-height: 40px;
+}
+
+.header-box .top .name1 {
+    display: block;
+    float: left;
+    font-size: 14px;
+    overflow: hidden;
+
+}
+
+.header-box .top .name2 {
+    display: block;
+    float: right;
+    font-size: 12px;
+    overflow: hidden;
+
+}
+
+.header-box .top a {
+    color: #A8A8AA;
+}
+
+.banner .nav-box {
+    width: 100%;
+    height: 40px;
+    background: #65625D;
+
+}
+
+.nav-box a {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.nav-box .nav1 {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+    background: #65625D;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nav-box .nav2 {
+    width: 735px;
+    height: 40px;
+    margin: 0 auto;
+    background: #101315;
+    display: none;
+
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.banner {
+    width: 100%;
+    max-width: 2560px;
+    height: 580px;
+    margin: 0 auto;
+    background: url('../img/1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .tu {
+    width: 631px;
+    height: 188px;
+
+    margin: 110px auto 0;
+    background: url('../img/1.png') no-repeat center;
+    background-size: contain;
+}
+
+.banner p {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 27px;
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.section1 {
+    width: 100%;
+    max-width: 2560px;
+    height: 580px;
+    margin: 0 auto;
+    margin-top: 12px;
+    overflow: hidden;
+    background: #FAFAFA url('../img/a-11.jpg') no-repeat;
+    background-position: center 286px;
+}
+
+.section1 .name1 {
+    text-align: center;
+    color: black;
+    font-size: 56px;
+    font-weight: 600;
+    margin-top: 90px;
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.section1 .name2 {
+    text-align: center;
+    color: #111111;
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 5px;
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.section2 {
+    width: 100%;
+    max-width: 2560px;
+    height: 580px;
+    margin: 0 auto;
+    margin-top: 12px;
+    overflow: hidden;
+    background: #FAFAFA url('../img/b-1.jpg') no-repeat;
+    background-position: center 286px;
+}
+
+.section2 .name1 {
+    text-align: center;
+    color: black;
+    font-size: 56px;
+    font-weight: 600;
+    margin-top: 90px;
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.section2 .name2 {
+    text-align: center;
+    color: #111111;
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 5px;
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.section3 {
+    width: 100%;
+    max-width: 2560px;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 6px;
+
+}
+
+.section3 .one {
+    width: 50%;
+    height: 592px;
+    box-sizing: border-box;
+    border: 6px solid white;
+    float: left;
+    background: yellow;
+}
+
+.section3 .one1 {
+    background: url('../img/music_three_months_large.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section3 .one .name1 {
+    font-size: 32px;
+    line-height: 1.1;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin: 60px auto 5px;
+}
+
+.section3 .one .name2 {
+    font-size: 21px;
+    line-height: 1.2381;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: .016em;
+    color: white;
+    margin: 0 auto;
+}
+
+.section3 .one2 {
+    background: url('../img/cny_gifts_large.png') no-repeat;
+    background-position: center 180px;
+
+}
+
+.section3 .one2 .name1 {
+    font-size: 32px;
+    line-height: 1.1;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    margin: 60px auto 5px;
+}
+
+.section3 .one2 .name2 {
+    font-size: 21px;
+    line-height: 1.2381;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: .016em;
+    color: black;
+    margin: 0 auto;
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.section3 .one3 {
+    background: url('../img/ipad_pro_film_large.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section3 .one3 .name1 {
+    font-size: 32px;
+    line-height: 1.1;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin: 60px auto 5px;
+}
+
+.section3 .one3 .name2 {
+    font-size: 21px;
+    line-height: 1.2381;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: .016em;
+    color: white;
+    margin: 0 auto;
+}
+
+.section3 .one4 {
+    background: #1A1A1A url('../img/p-1.jpg') no-repeat;
+    background-position: center 120px;
+
+
+}
+
+.section3 .one4 .name1 {
+    font-size: 32px;
+    line-height: 1.1;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin: 60px auto 5px;
+}
+
+.section3 .one4 .name2 {
+    font-size: 21px;
+    line-height: 1.2381;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: .016em;
+    color: white;
+    margin: 0 auto;
+}
+
+.section3 .one5 {
+    background: #FAFAFA url('../img/o-1.jpg') no-repeat;
+    background-position: center 200px;
+
+}
+
+.section3 .one5 .name1 {
+    font-size: 32px;
+    line-height: 1.1;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    margin: 60px auto 5px;
+}
+
+.section3 .one5 .name2 {
+    font-size: 21px;
+    line-height: 1.2381;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: .016em;
+    color: black;
+    margin: 0 auto;
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.section3 .one6 {
+    background: #FAFAFA url('../img/k-1.png') no-repeat;
+    background-position: center 255px;
+
+}
+
+.section3 .one6 .name1 {
+    font-size: 32px;
+    line-height: 1.1;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    margin: 60px auto 5px;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background: #F2F2F2;
+    overflow: hidden;
+
+}
+
+.footer .one1 {
+    width: 1000px;
+    height: 300px;
+    margin: 40px auto 0;
+    overflow: hidden;
+    /* background: yellow; */
+}
+
+.footer .one1 .two {
+    width: 20%;
+    height: auto;
+    /* background: yellowgreen; */
+    float: left;
+}
+
+.footer .one1 .two dt {
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: .005em;
+    margin: 5px 0;
+    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.footer .one1 .two dd {
+    font-size: 11px;
+    line-height: 1.27273;
+    font-weight: 600;
+    letter-spacing: .005em;
+    color: #555;
+    margin: 5px 0;
+    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.footer .one2 {
+    width: auto;
+    height: auto;
+    padding: 30px 24px 0;
+    margin: 0 auto;
+    background: #F2F2F2;
+    display: none;
+}
+
+/*.footer .one2 .three::before {
+    content: "+";
+    display: block;
+    float: right;
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-right: 8px;
+
+}*/
+
+.footer .one2 .three {
+    width: 100%;
+    height: 37px;
+    border-bottom: 1px solid #d6d6d6;
+    line-height: 37px;
+    /* padding-right: 20px; */
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-top: 1px;
+}
+.footer .one2 .three a{
+    display: block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.footer .one2 .three a h5{
+    font-size: 10px;
+    color: #333;
+    float: left;
+}
+.footer .one2 .three a h4{
+    float: right;
+    font-size: 10px;
+    color: #333;
+    margin-right: 10px;
+    transition: all 0.4s;
+}
+.footer .one2 .three .buxuyao{
+    width: 100%;
+    height: auto;
+    background: red;
+    margin-top: 37px;
+}
+.buxuyao li {
+    width: 100%;
+    height: 26px;
+    background: #f2f2f2;
+    padding: 6px 14px;
+    color: #555;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+.name10 {
+    width: auto;
+    height: auto;
+    margin: 236px auto 5px;
+    border-bottom: 1px solid #D6D6D6;
+    line-height: 25px;
+    font-size: 11px;
+    color: black;
+    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.name20 {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    /* border-bottom: 1px solid #D6D6D6; */
+    line-height: 25px;
+    font-size: 11px;
+    color: black;
+    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-box .top {
+        width: auto;
+        margin: 0 12px;
+    }
+
+    .nav-box .nav1 {
+        width: auto;
+        margin: 0 12px;
+    }
+
+    .banner {
+        width: auto;
+        height: 569px;
+        background: url('../img/2.jpg');
+        background-size: cover;
+    }
+
+    .banner .tu {
+        width: auto;
+        height: 141px;
+        /* background: red; */
+        margin: 110px auto 0;
+        background: url('../img/2.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .banner p {
+        text-align: center;
+        color: #fff;
+        font-size: 31px;
+        font-weight: 500;
+        margin-top: 27px;
+        font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .section1 {
+        width: auto;
+        height: 569px;
+        background: url('../img/a-1.jpg') no-repeat;
+        background-position: center 278px;
+    }
+
+    .section2 {
+        width: auto;
+        height: 569px;
+        background: url('../img/b-2.jpg') no-repeat;
+        background-position: center 278px;
+    }
+
+    .section3 .one1 {
+
+        height: 490px;
+        background: url('../img/music_three_months_medium.jpg');
+        background-size: auto 490px;
+        background-position: center;
+    }
+
+    .section3 .one .name1 {
+        font-size: 22px
+
+    }
+
+    .section3 .one .name2 {
+        font-size: 19px
+
+    }
+
+    .section3 .one2 {
+
+        height: 490px;
+        background: url('../img/cny_gifts_medium.png') no-repeat;
+
+        background-position: center 160px;
+    }
+
+    .section3 .one3 {
+
+        height: 490px;
+        background: url('../img/ipad_pro_film_medium.jpg');
+        background-size: auto 490px;
+        background-position: center;
+    }
+
+    .section3 .one4 {
+
+        height: 490px;
+        background: #1A1A1A url('../img/p-2.jpg') no-repeat;
+        /* background-size: auto 490px; */
+        background-position: center 140px;
+
+    }
+
+    .section3 .one5 {
+
+        height: 490px;
+        background: url('../img/0-2.jpg') no-repeat;
+
+        background-position: center 130px;
+    }
+
+    .section3 .one6 {
+
+        height: 490px;
+        background: url('../img/k-2.png') no-repeat;
+
+        background-position: center 225px;
+    }
+
+    .footer .one1 {
+        width: auto;
+        margin: 0 12px;
+    }
+
+    .name10 {
+        margin-top: 234px;
+    }
+
+}
+
+@media screen and (max-width: 735px) {
+    .nav-box .nav1 {
+        display: none;
+    }
+
+    .nav-box .nav2 {
+        width: auto;
+        padding: 0 12px;
+        display: flex;
+    }
+
+    .banner {
+        width: auto;
+        height: 500px;
+        background: url('../img/3.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner .tu {
+        width: auto;
+        height: 92px;
+        /* background: red; */
+        margin: 40px auto 0;
+        background: url('../img/3.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .banner p {
+        text-align: center;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 27px;
+        font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .section1 {
+        width: auto;
+        height: 500px;
+        background: url('../img/a-2.jpg') no-repeat;
+        background-position: center 130px;
+    }
+
+    .section2 {
+        width: auto;
+        height: 500px;
+        background: url('../img/b-3.jpg') no-repeat;
+        background-position: center 130px;
+    }
+
+    .section1 .name1 {
+        font-size: 32px;
+        margin-top: 32px;
+    }
+
+    .section1 .name2 {
+        font-size: 19px;
+        margin-top: 3px;
+    }
+
+    .section2 .name1 {
+        font-size: 32px;
+        margin-top: 32px;
+    }
+
+    .section2 .name2 {
+        font-size: 19px;
+        margin-top: 3px;
+    }
+
+    .section3 .one1 {
+        width: 100%;
+        height: 500px;
+        box-sizing: border-box;
+        border-width: 6px 0 6px 0;
+
+        background: url('../img/music_three_months_small.jpg') no-repeat;
+        background-size: auto 500px;
+        background-position: center;
+    }
+
+    .section3 .one .name1 {
+        font-size: 32px
+
+    }
+
+    .section3 .one .name2 {
+        font-size: 19px
+    }
+
+    .section3 .one2 {
+
+        width: 100%;
+        height: 500px;
+        box-sizing: border-box;
+        border-width: 6px 0 6px 0;
+        background: #FAFAFA url('../img/cny_gifts_small.png') no-repeat;
+
+        background-position: center 156px;
+    }
+
+    .section3 .one3 {
+        width: 100%;
+        height: 500px;
+        box-sizing: border-box;
+        border-width: 6px 0 6px 0;
+
+        background: url('../img/ipad_pro_film_small.jpg');
+        background-size: auto 500px;
+        background-position: center;
+    }
+
+    .section3 .one4 {
+        width: 100%;
+        height: 500px;
+        box-sizing: border-box;
+        border-width: 6px 0 6px 0;
+
+        background: #1A1A1A url('../img/p-3.jpg') no-repeat;
+        /* background-size: contain; */
+        background-position: center 168px;
+    }
+
+    .section3 .one5 {
+
+        width: 100%;
+        height: 500px;
+        box-sizing: border-box;
+        border-width: 6px 0 6px 0;
+        background: #FAFAFA url('../img/0-3.jpg') no-repeat;
+
+        background-position: center 135px;
+    }
+
+    .section3 .one6 {
+
+        width: 100%;
+        height: 500px;
+        box-sizing: border-box;
+        border-width: 6px 0 6px 0;
+        background: #FAFAFA url('../img/k-3.png') no-repeat;
+
+        background-position: center 220px;
+    }
+
+    .footer .one1 {
+        display: none;
+
+    }
+
+    .footer .one2 {
+        display: block;
+    }
+
+    .name10 {
+        margin-top: 10px;
+    }
+
+}
